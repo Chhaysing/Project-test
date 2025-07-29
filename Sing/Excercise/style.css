@@ -1,0 +1,92 @@
+body{
+    background: linear-gradient(to right,white, lightblue);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pic{
+    display: flex;
+            align-items: center;
+            justify-content: space-between;
+}
+.pica{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid black ;
+    width: 150px;
+    margin-top: 20px;
+    background: linear-gradient(to right,blue, red );
+}
+.picb{
+    margin-top: 20px;
+    background-color: transparent;
+    mix-blend-mode: multiply;
+}
+hr{
+    background: linear-gradient(to right,red,orange,yellow,green,blue,purple,white);
+    height: 10px;
+    border: none;
+}
+.para{
+    text-align: center;
+}
+input[type=button]{
+text-align: center;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: lime;
+    font-weight: bold;
+    height: 30px;
+}
+.box1{
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient( to right,lime, green,white);
+    border: none;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 100%;
+    width: 400px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-top: 50px;
+    height: 350px;
+    padding: 20px;
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 15px;
+    
+}
+input[type=text]{
+    border-radius: 2px;
+    border: none;
+    outline: 1px solid lightgray;
+    height: 30px;
+    width: 100%;
+    padding: 3px;
+    padding-left: 3px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-left: 10px;
+    width: 385px;
+}
+textarea{
+    border-radius: 2px;
+    border: none;
+    outline: 1px solid lightgray;
+    height: 30px;
+    width: 100%;
+    padding: 3px;
+    padding-left: 3px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-left: 10px;
+    height: 100px;
+        width: 385px;
+}

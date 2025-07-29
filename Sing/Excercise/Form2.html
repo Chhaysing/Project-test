@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Log in</title>
+    <link rel="shortcut icon" href="/images/fb.ico" type="image/x-icon">
+    <style>
+        h1{
+            color: #0866ff
+        }
+        .a{
+            width: 100%;
+            background-color: whitesmoke;
+            border-radius: 20px;
+            padding: 20px;
+            width: 300px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            box-shadow: 2px 4px #474747 ;
+        }
+        label{
+            float: left;
+        }
+        input[type=text]:focus {
+            border: none;
+        }
+        .email{
+            background-color:#e4dede;
+            border: none;
+        }
+        .password{
+            background-color:  #e4dede;
+            border: none;
+        }
+        .submit{
+            cursor: pointer;
+        }
+        .submit:hover{
+            transition: 1;
+            opacity: 0.9;
+        }
+        input[type=email]:focus {
+            box-shadow: 0 0 0 2px cyan ;
+            outline: none;
+            border: none;
+        }
+        input[type=password]:focus {
+            box-shadow: 0 0 0 2px cyan ;
+            outline: none;
+            border: none;
+        }
+    </style>
+</head>
+<body style="" >
+    <center>
+    <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif; " >Facebook Login</h1>
+    <hr>
+    <div class="a">
+    <form action="">
+        <label for="" >Email or Phone number :</label><br><br>
+        <input type="email" class="email" placeholder="Email or Phone number" style=" border-radius: 3px; height: 20px; width: 100%; padding: 5px;"  ><br><br>
+        <label for="">Password :</label><br><br>
+        <input type="password" placeholder="Password" class="password" style="width: 100%; border-radius: 3px; height: 20px; padding: 5px; " ><br><br>
+        <input  class="submit" type="submit" value="Log in" style=" font-size: larger; font-weight: bold; border-radius: 3px; background-color: #0866ff; color: white; padding: 7px; border-color:none; width: 310px; border: none; width: 103%; "  ><br><br>
+        <a href="http://127.0.0.1:3000/Excercise/Form2.1.html" target="_blank" style="text-align: center; text-decoration: none;color: #0866ff; " >Forgot Password ?</a>
+        <hr style="width: 250px; width: 100%; " >
+        <input class="submit" type="submit" value="Create New Account" style="width: 150px; background-color:#36a420; color: white; border-radius: 3px; border-color: #36a420; padding: 5px; text-align: center; border: none; height: 40px; " >
+    </form>
+    </div></center>
+</body>
+</html>
